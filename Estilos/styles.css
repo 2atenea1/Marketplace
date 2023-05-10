@@ -128,12 +128,6 @@ header {
   cursor: pointer;
 }
 
-.mujeres_central {
-  
-  display: inline-flex;
-  margin-left: 40%;
-}
-
 section {
   display: flex;
 }
