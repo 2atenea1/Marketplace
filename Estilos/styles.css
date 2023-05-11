@@ -131,19 +131,38 @@ header {
 section {
   display: flex;
 }
-
+h7 {
+  color: #C12d4c;
+}
+.text-temp{
+  color: #C12d4c;
+  margin-left: 5px;
+  font-weight: bolder;
+  font-size: 50px; df
+}
 .contenedor-registro {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   margin-left: 40px;
   margin-top: 40px;
-  height: 350px;
+  height: 300px;
   width: 35%;
-  background-color: #FFF;
-  padding: 10px;  
+  background-color: #fff;
+  padding: 30px;
+  border-style: solid;
+  border-color: hsla(0, 2%, 16%, 0.041);
+  border-radius: 40px;
+  position:relative;      
+  box-shadow: inset  -10px -10px #cf959b
 }
-
 .contenedor-temporizador {
-  margin-right: 10px;
+  display: flex;
   margin-top: 40px;
-  height: 350px;
+  margin-left: 40px;
+  height: 320px;
   width: 65%;
+  border-style: solid;
+  border-color: hsla(0, 2%, 16%, 0.041);
+  border-radius: 40px;
+  position:relative;      
+  box-shadow: inset  -10px -10px #cf959b
 }
