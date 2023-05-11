@@ -126,43 +126,87 @@ header {
 
 .contenedor-der .saludo span {
   cursor: pointer;
+ 
 }
 
 section {
   display: flex;
 }
-h7 {
+
+p {
+  margin-top: 0;
   color: #C12d4c;
-}
-.text-temp{
-  color: #C12d4c;
-  margin-left: 5px;
+  font-size: 17px;
+  height: 30px;
   font-weight: bolder;
-  font-size: 50px; df
 }
+
+.primertexto {
+  height: 50px;
+  width: 400px;
+  margin: 45px 20px 45px 20px;
+}
+
+.segundotexto {
+  height: 50px;
+  width: 400px;
+  margin: 15px;
+}
+
+.separador {
+  height: 10px;
+  width: 400px;
+  margin: 30px 45px 30px 20px;
+}
+
 .contenedor-registro {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   margin-left: 40px;
   margin-top: 40px;
-  height: 300px;
+  height: 350px;
   width: 35%;
   background-color: #fff;
-  padding: 30px;
   border-style: solid;
   border-color: hsla(0, 2%, 16%, 0.041);
   border-radius: 40px;
   position:relative;      
-  box-shadow: inset  -10px -10px #cf959b
+  box-shadow: inset  -10px -10px #cf959b;
+}
+.boton-registro {
+  height: 63px;
+  width: 230px;
+  background-color: #fc2947;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.text-register {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bolder;
+  padding: 13px;
 }
 .contenedor-temporizador {
   display: flex;
   margin-top: 40px;
-  margin-left: 40px;
-  height: 320px;
+  margin-left: 35px;
+  height: 350px;
   width: 65%;
   border-style: solid;
   border-color: hsla(0, 2%, 16%, 0.041);
   border-radius: 40px;
   position:relative;      
   box-shadow: inset  -10px -10px #cf959b
+}
+.text-temp{
+  color: #C12d4c;
+  margin-left: 5px;
+  font-weight: bolder;
+  font-size: 35px; 
 }
