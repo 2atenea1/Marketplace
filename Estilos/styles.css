@@ -245,14 +245,32 @@ p {
   font-size: 55px;
   text-shadow: 3px 2px 5px #fc2947;
 }
-.imagenApp-size  {
+.imagenApp-size {
   height: 430px;
   width: 390px;
   margin-left: 210px;
   margin-top: -59px;
 }
-.temporizador  {
+.temporizador {
   width: 10%;
   margin-top: -90px;
   margin-left: 490px;
+}
+article {
+  margin-top: 40px;
+  height: 290px;
+  width: 100%;
+}
+.listaArticle {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 75px;
+  gap: 100px;
+}
+ul li img {
+  height: 250px;
+  width: 250px;
+  border-style: solid;
+  box-shadow: 40px;
 }
