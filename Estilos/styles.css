@@ -265,12 +265,84 @@ article {
   list-style: none;
   display: flex;
   justify-content: flex-start;
-  margin-left: 75px;
+  margin-left: 35px;
   gap: 100px;
 }
 ul li img {
+  height: 210px;
+  width: 210px;
+  border-style: solid;
+  margin-left: 16px;
+  margin-top: 17px;
+}
+.imagenUno {
   height: 250px;
   width: 250px;
   border-style: solid;
-  box-shadow: 40px;
+  box-shadow: inset -200px -200px 200px 200px;
+  color: rgba(174, 23, 19, 5);
 }
+.imagenDos {
+  height: 250px;
+  width: 250px;
+  border-style: solid;
+  box-shadow: inset -200px -200px 200px 200px;
+  color: rgba(174, 23, 19, 5);
+}
+.imagenTres {
+  height: 250px;
+  width: 250px;
+  border-style: solid;
+  box-shadow: inset -200px -200px 200px 200px;
+  color: rgba(174, 23, 19, 5);
+}
+.imagenCuatro {
+  height: 250px;
+  width: 250px;
+  border-style: solid;
+  box-shadow: inset -200px -200px 200px 200px;
+  color: rgba(174, 23, 19, 5);
+}
+.imagenCinco {
+  height: 250px;
+  width: 250px;
+  border-style: solid;
+  box-shadow: inset -200px -200px 200px 200px;
+  color: rgba(174, 23, 19, 5);
+}
+.contenedoresTextype {
+  height: 30px;
+  width: 100%;
+}
+.ContenedorListaPrimera {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  height: 30px;
+  width: 40%;
+  color: #f93548;
+  cursor: pointer;
+  float: left;
+}
+.PrimerDescrip {
+  float: left;
+  width: 50%;
+  list-style: none;
+  margin-left: 30px;
+}
+.SegundoDescrip {
+  float: Right;
+  width: 50%;
+  list-style: none;
+}
+.ContenedorListaPrimera :hover {
+  transform: scale(1.1);
+  transition: all 600ms ease;
+}
+.ContenedorListaSegunda {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  height: 30px;
+  width: 60%;
+  float: right;
+  color: #f93548;
+  cursor: pointer;
+}
+
