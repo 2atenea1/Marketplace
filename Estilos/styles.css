@@ -265,7 +265,7 @@ article {
   list-style: none;
   display: flex;
   justify-content: flex-start;
-  margin-left: 35px;
+  margin-left: 78px;
   gap: 100px;
 }
 ul li img {
@@ -282,12 +282,34 @@ ul li img {
   box-shadow: inset -200px -200px 200px 200px;
   color: rgba(174, 23, 19, 5);
 }
+.imagenUnoText {
+  color: #f93548;;
+  text-align: center;
+  margin-top: 40PX;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.imagenUnoText :hover {
+  transform: scale(1.2);
+  transition: all 200ms ease;
+}
 .imagenDos {
   height: 250px;
   width: 250px;
   border-style: solid;
   box-shadow: inset -200px -200px 200px 200px;
   color: rgba(174, 23, 19, 5);
+}
+.imagenDosText {
+  color: #f93548;;
+  text-align: center;
+  margin-top: 40PX;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.imagenDosText :hover {
+  transform: scale(1.2);
+  transition: all 200ms ease;
 }
 .imagenTres {
   height: 250px;
@@ -296,12 +318,34 @@ ul li img {
   box-shadow: inset -200px -200px 200px 200px;
   color: rgba(174, 23, 19, 5);
 }
+.imagenTresText {
+  color: #f93548;;
+  text-align: center;
+  margin-top: 40PX;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.imagenTresText :hover {
+  transform: scale(1.2);
+  transition: all 200ms ease;
+}
 .imagenCuatro {
   height: 250px;
   width: 250px;
   border-style: solid;
   box-shadow: inset -200px -200px 200px 200px;
   color: rgba(174, 23, 19, 5);
+}
+.imagenCuatroText {
+  color: #f93548;;
+  text-align: center;
+  margin-top: 40PX;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.imagenCuatroText :hover {
+  transform: scale(1.2);
+  transition: all 200ms ease;
 }
 .imagenCinco {
   height: 250px;
@@ -310,39 +354,14 @@ ul li img {
   box-shadow: inset -200px -200px 200px 200px;
   color: rgba(174, 23, 19, 5);
 }
-.contenedoresTextype {
-  height: 30px;
-  width: 100%;
-}
-.ContenedorListaPrimera {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  height: 30px;
-  width: 40%;
-  color: #f93548;
-  cursor: pointer;
-  float: left;
-}
-.PrimerDescrip {
-  float: left;
-  width: 50%;
-  list-style: none;
-  margin-left: 30px;
-}
-.SegundoDescrip {
-  float: Right;
-  width: 50%;
-  list-style: none;
-}
-.ContenedorListaPrimera :hover {
-  transform: scale(1.1);
-  transition: all 600ms ease;
-}
-.ContenedorListaSegunda {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  height: 30px;
-  width: 60%;
-  float: right;
-  color: #f93548;
+.imagenCincoText {
+  color: #f93548;;
+  text-align: center;
+  margin-top: 40PX;
+  font-weight: bolder;
   cursor: pointer;
 }
-
+.imagenCincoText :hover {
+  transform: scale(1.2);
+  transition: all 200ms ease;
+}
