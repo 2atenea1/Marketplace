@@ -141,7 +141,7 @@ h1 {
 .carta_color {
     background: rgb(255,75,75);
     background: linear-gradient(135deg, rgba(255,75,75,1) 0%, rgba(171,18,18,1) 46%, rgba(255,78,78,1) 100%);
-    height: 315px;
+    height: 335px;
     border-radius: 10%;
     margin-top: 25px;
     transition: all 300ms ease;
@@ -157,18 +157,19 @@ h1 {
     display: grid;
     height: 300px;
     color: white;
-    border-radius: 10%;
 }
 
 
 .compu {
     width: 140px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .compu2 {
     width: 80px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .imagenes-descrip {
@@ -240,7 +241,7 @@ h1 {
 }
 
 .carta_testimonio img {
-    width: 200px;
+    width: 150px;
     margin-left: 20px;
 }
 
@@ -250,10 +251,10 @@ h1 {
 }
 
 .color_carta {
-    width: 180px;
-    height: 280px;
+    width: 140px;
+    height: 248px;
     background: rgb(255,74,74);
-    background: radial-gradient(circle, rgba(255,74,74,1) 0%, rgba(145,12,12,1) 46%, rgba(255,66,66,0.8345623230666257) 100%);
+    background: radial-gradient(circle, rgba(255,74,74,1) 0%, rgba(145,12,12,1) 36%, rgba(255,66,66,0.8345623230666257) 100%);
     display: grid;
     justify-items: center;
     justify-content: center;
@@ -265,6 +266,10 @@ h1 {
     margin-top: 10px;
 }
 
+.text_info h3 {
+    text-transform: uppercase;
+}
+
 .text_info p {
     color: #4793a2;
     line-height: 0.99em;
@@ -274,3 +279,54 @@ h1 {
     margin-right: 70px;
 }
 
+#encuentros-regionales {
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo_encuentros {
+    padding-top: 200px;
+}
+
+.text_info_video {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.text_info_video h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.text_info_video p {
+    color: #4793a2;
+    font-size: 19px;
+    width: 250px;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.carta-video {
+    display: grid;
+}
+
+.color_carta_video {
+    width: 460px;
+    height: 300px;
+    background: rgb(255,74,74);
+    background: radial-gradient(circle, rgba(255,74,74,1) 0%, rgba(145,12,12,1) 36%, rgba(255,66,66,0.8345623230666257) 100%);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.color_carta_video img {
+    width: 250px;
+}
