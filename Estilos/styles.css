@@ -6,7 +6,13 @@
   font-weight: 700;
   line-height: 26.4px;
 }
-
+:root {
+  --ColorFondo: #f2f2f2;
+  --ColorHeader: #fc2947;
+  --ColorSaludo: #f5cad8;
+  --ColorBlanco: #fff;
+  --ColorParrafos: #c12d4c;
+}
 h3 {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 14px;
@@ -44,12 +50,13 @@ pre {
 }
 Body {
   margin: 0;
+  background-color: var(--ColorUno);
 }
 
 header {
   height: 130px;
   width: 100%;
-  background-color: #fc2947;
+  background-color: var(--ColorHeader);
   display: flex;
 }
 
@@ -88,7 +95,7 @@ header {
 }
 
 .saludo {
-  color: #f5cad8;
+  color: var(--ColorSaludo);
   text-align: center;
   margin-left: 50px;
 }
@@ -120,11 +127,11 @@ header {
 }
 
 .Seleccion-carro {
-  color: #fff;
+  color: var(--ColorBlanco);
 }
 
 .second_main {
-  background-color: #f5cad8;
+  background-color: var(--ColorSaludo);
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -140,7 +147,7 @@ header {
 .second_main li {
   padding: 8px;
   font-size: 18px;
-  color: #f93548;
+  color: var(--ColorHeader);
   cursor: pointer;
   transition: all 500ms ease;
 }
@@ -151,7 +158,6 @@ header {
 
 section {
   display: flex;
-  background-color: #f2f2f2;
 }
 .seccion-izq {
   height: 400px;
@@ -164,7 +170,7 @@ section {
 
 p {
   margin-top: 0;
-  color: #c12d4c;
+  color: var(--ColorParrafos);
   font-size: 17px;
   height: 30px;
   font-weight: bolder;
@@ -194,7 +200,7 @@ p {
   margin-top: 40px;
   height: 350px;
   width: 70%;
-  background-color: #fff;
+  background-color: var(--ColorBlanco);
   border-style: solid;
   border-color: hsla(0, 2%, 16%, 0.041);
   border-radius: 40px;
@@ -204,7 +210,7 @@ p {
 .boton-registro {
   height: 63px;
   width: 230px;
-  background-color: #fc2947;
+  background-color: var(--ColorHeader);
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   border-top-left-radius: 100px;
@@ -217,7 +223,7 @@ p {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 20px;
   text-align: center;
-  color: #fff;
+  color: var(--ColorBlanco);
   font-weight: bolder;
   padding: 13px;
 }
@@ -231,7 +237,7 @@ p {
   border-radius: 40px;
   position: relative;
   box-shadow: inset -10px -10px #cf959b;
-  background-color: #fff;
+  background-color: var(--ColorBlanco);
 }
 .contenedor-textTemp {
   height: 80%;
@@ -261,7 +267,6 @@ article {
   margin-top: 40px;
   height: 290px;
   width: 100%;
-  background-color: #f2f2f2;
 }
 .listaArticle {
   list-style: none;
@@ -377,7 +382,7 @@ ul li img {
   .contenedor-registro {
     width: 430px;
     height: 320px;
-    margin-left: 7px;
+    margin-left: 20px;
     padding: 15px;
   }
   .primertexto {
@@ -407,14 +412,15 @@ ul li img {
   .contenedor-textTemp {
     width: 70%;
     height: 313px;
+    padding: 30px;
   }
   .text-temp {
     font-size: 38px;
   }
   .imagenApp-size {
-    width: 300px;
+    width: 340px;
     height: 381px;
-    margin-left: 2px;
+    margin-left: -50px;
     margin-top: -45px;
   }
   .contenedorImgTempo {
@@ -422,5 +428,42 @@ ul li img {
     width: 30%;
     float: right;
     margin-top: -314px;
+  }
+  .listaArticle {
+    gap: 38px;
+    margin-left: -28px;
+  }
+  ul li img {
+    height: 180px;
+    width: 200px;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  .imagenUno {
+    height: 170px;
+    width: 170px;
+    height: 210px;
+    width: 230px;
+    margin-top: 0;
+  }
+  .imagenDos {
+    height: 210px;
+    width: 230px;
+    margin-top: 0;
+  }
+  .imagenTres {
+    height: 210px;
+    width: 230px;
+    margin-top: 0;
+  }
+  .imagenCuatro {
+    height: 210px;
+    width: 230px;
+    margin-top: 0;
+  }
+  .imagenCinco {
+    height: 210px;
+    width: 230px;
+    margin-top: 0;
   }
 }
