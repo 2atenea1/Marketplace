@@ -42,7 +42,6 @@ pre {
   font-weight: 400;
   line-height: 18.5714px;
 }
-
 Body {
   margin: 0;
 }
@@ -152,6 +151,7 @@ header {
 
 section {
   display: flex;
+  background-color: #f2f2f2;
 }
 .seccion-izq {
   height: 400px;
@@ -222,8 +222,6 @@ p {
   padding: 13px;
 }
 .contenedor-temporizador {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   margin-top: 40px;
   margin-left: 35px;
   height: 350px;
@@ -233,10 +231,11 @@ p {
   border-radius: 40px;
   position: relative;
   box-shadow: inset -10px -10px #cf959b;
+  background-color: #fff;
 }
 .contenedor-textTemp {
   height: 80%;
-  width: 150%;
+  width: 70%;
 }
 .text-temp {
   color: #c12d4c;
@@ -244,6 +243,10 @@ p {
   font-weight: bolder;
   font-size: 55px;
   text-shadow: 3px 2px 5px #fc2947;
+}
+.contenedorImgTempo {
+  height: 400px;
+  width: ;
 }
 .imagenApp-size {
   height: 430px;
@@ -253,13 +256,12 @@ p {
 }
 .temporizador {
   width: 10%;
-  margin-top: -90px;
-  margin-left: 490px;
 }
 article {
   margin-top: 40px;
   height: 290px;
   width: 100%;
+  background-color: #f2f2f2;
 }
 .listaArticle {
   list-style: none;
@@ -283,9 +285,9 @@ ul li img {
   color: rgba(174, 23, 19, 5);
 }
 .imagenUnoText {
-  color: #f93548;;
+  color: #f93548;
   text-align: center;
-  margin-top: 40PX;
+  margin-top: 40px;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -301,9 +303,9 @@ ul li img {
   color: rgba(174, 23, 19, 5);
 }
 .imagenDosText {
-  color: #f93548;;
+  color: #f93548;
   text-align: center;
-  margin-top: 40PX;
+  margin-top: 40px;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -319,9 +321,9 @@ ul li img {
   color: rgba(174, 23, 19, 5);
 }
 .imagenTresText {
-  color: #f93548;;
+  color: #f93548;
   text-align: center;
-  margin-top: 40PX;
+  margin-top: 40px;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -337,9 +339,9 @@ ul li img {
   color: rgba(174, 23, 19, 5);
 }
 .imagenCuatroText {
-  color: #f93548;;
+  color: #f93548;
   text-align: center;
-  margin-top: 40PX;
+  margin-top: 40px;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -355,13 +357,70 @@ ul li img {
   color: rgba(174, 23, 19, 5);
 }
 .imagenCincoText {
-  color: #f93548;;
+  color: #f93548;
   text-align: center;
-  margin-top: 40PX;
+  margin-top: 40px;
   font-weight: bolder;
   cursor: pointer;
 }
 .imagenCincoText :hover {
   transform: scale(1.2);
   transition: all 200ms ease;
+}
+@media (min-width: 1024px) {
+  section {
+    margin-right: -10px;
+    gap: 40px;
+    width: 100%;
+    height: 400px;
+  }
+  .contenedor-registro {
+    width: 430px;
+    height: 320px;
+    margin-left: 7px;
+    padding: 15px;
+  }
+  .primertexto {
+    width: 380px;
+    margin-top: 10px;
+  }
+  .separador {
+    width: 340px;
+  }
+  .segundotexto {
+    width: 370px;
+  }
+  .boton-registro {
+    height: 53px;
+    width: 220px;
+    margin-bottom: -20px;
+  }
+  .seccion-der {
+    height: 400px;
+    width: 1200px;
+  }
+  .contenedor-temporizador {
+    width: 100%;
+    height: 320px;
+    margin-left: -8px;
+  }
+  .contenedor-textTemp {
+    width: 70%;
+    height: 313px;
+  }
+  .text-temp {
+    font-size: 38px;
+  }
+  .imagenApp-size {
+    width: 300px;
+    height: 381px;
+    margin-left: 2px;
+    margin-top: -45px;
+  }
+  .contenedorImgTempo {
+    height: 308px;
+    width: 30%;
+    float: right;
+    margin-top: -314px;
+  }
 }
