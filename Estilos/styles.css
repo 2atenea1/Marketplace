@@ -155,6 +155,9 @@ header {
 .second_main li:hover {
   transform: scale(1.1);
 }
+i.fa-sharp.fa-solid.fa-bars.iconoMenu {
+  color: #FFF;
+}
 
 section {
   display: flex;
@@ -373,7 +376,7 @@ ul li img {
   transform: scale(1.2);
   transition: all 200ms ease;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   section {
     margin-right: -10px;
     gap: 40px;
@@ -403,10 +406,9 @@ ul li img {
   }
   .seccion-der {
     height: 400px;
-    width: 1200px;
   }
   .contenedor-temporizador {
-    width: 100%;
+    width: 80%;
     height: 320px;
     margin-left: -8px;
   }
@@ -416,13 +418,14 @@ ul li img {
     padding: 30px;
   }
   .text-temp {
-    font-size: 38px;
+    font-size: 33px;
+    padding: 20px;
   }
   .imagenApp-size {
     width: 340px;
-    height: 381px;
+    height: 396px;
     margin-left: -50px;
-    margin-top: -45px;
+    margin-top: -59px;
   }
   .contenedorImgTempo {
     height: 308px;
@@ -441,8 +444,6 @@ ul li img {
     margin-top: 12px;
   }
   .imagenUno {
-    height: 170px;
-    width: 170px;
     height: 210px;
     width: 230px;
     margin-top: 0;
