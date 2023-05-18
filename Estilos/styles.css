@@ -251,14 +251,15 @@ p {
   text-shadow: 3px 2px 5px #fc2947;
 }
 .contenedorImgTempo {
-  height: 400px;
-  width: ;
+  height: 100%;
+  width: 30%;
+  margin-left: 750px;
+  margin-top: -300px;
 }
 .imagenApp-size {
   height: 430px;
   width: 390px;
-  margin-left: 210px;
-  margin-top: -59px;
+  margin-top: -37px;
 }
 .temporizador {
   width: 10%;
@@ -372,7 +373,7 @@ ul li img {
   transform: scale(1.2);
   transition: all 200ms ease;
 }
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   section {
     margin-right: -10px;
     gap: 40px;
