@@ -95,6 +95,25 @@ nav a:hover {
     line-height: 0.89884005em;
 }
 
+ /* Separador de colores */
+.custom-shape-divider-top-1684544339 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1684544339 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 160px;
+}
+
+.custom-shape-divider-top-1684544339 .shape-fill {
+    fill: #FF5151;
+}
+
 #descripcion_programa {
     height: 100vh;
 }
